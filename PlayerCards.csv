@@ -1,0 +1,3 @@
+Name,Team,TeamColour,Cost,Image_location,Text_main,Text_flavour,Lv1ATK,Lv1DEF,Lv1SPD,Lv1CRL,Lv2ATK,Lv2DEF,Lv2SPD,Lv2CRL,Lv3ATK,Lv3DEF,Lv3SPD,Lv3CRL,Lv4ATK,Lv4DEF,Lv4SPD,Lv4CRL
+Player1,That team,green,1,Default,Text-yeah,,1,1,1,1,2,2,2,2,4,4,4,4,8,8,8,8
+Player2,That team,green,2,Default,,here be words,1,1,1,1,2,2,2,2,4,4,4,4,8,8,8,8

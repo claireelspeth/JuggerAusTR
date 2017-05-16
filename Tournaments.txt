@@ -1,0 +1,50 @@
+# Enter data for each tournament copying the format below
+# You may delete tournament data more than 3 years old
+# DO NOT CHANGE THE FORMAT OR ENTER ANY NON-TOURNAMENT DATA (unless new text begins each line with #)
+
+# recommended max points for tournament:
+# MAJOR 16
+# MINOR 8
+# LOCAL GAMES DAY 4
+# 1v1 GAME 2
+
+Toowoomba, 04/2017
+Points, 4
+1, Skullduggery
+2, Mountain Men
+3, Motley Crew
+4, Highland Dragons
+
+Canberra, 10/2016
+Points, 16
+1, Bees
+2, Second Spars
+2, Pompfen Pals
+4, Motley Crew
+5, Owls
+6, Newcastle Blitzkrieg
+6, Space Pirates
+
+Brisbane, 07/2016
+Points, 16
+1, Skullduggery
+2, Mountain Men
+3, Flaily Wailies
+4, Opposition
+5, QUT
+
+Newcastle, 03/2016
+Points, 8
+1,Bees
+1, Skullwailies
+3, MERCs
+4, Newcastle Blitzkrieg
+
+Brisbane, 09/2015
+Points, 16
+1, Skullduggery
+2, Mountain Men
+3, Flaily Wailies
+4, Space Pirates
+5, Newcastle Blitzkrieg
+6, MERCs

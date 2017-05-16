@@ -55,21 +55,8 @@ Tournament[3] = {'Location':'Canberra',
 Tournament[4] = {'Location':'Toowoomba','Date': '04/2017', 'Points': 2,
               'Teams':{'Motley Crew':1,'Highland Dragons':2}} 
 # can I read this data in as a text or JSON file?
-
-
-#d = {}
-#with open("file.txt") as f:
- #   for line in f:
-  #     (key, val) = line.split()
-   #    d[int(key)] = val
-f = open('Tournaments.txt','r')
-content = f.readlines()
-f.close()
-for l in open('Tournaments.txt').readlines():
-    if not l.startswith("#"): # remove preamble text
-        print(l) # print tournament data
-
-
+      
+       
 for game in range(0,len(Tournament)):
     # how long ago was that tournament? What is the weighting of scores?
     try:

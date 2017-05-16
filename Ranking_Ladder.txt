@@ -1,0 +1,38 @@
+1 Skullduggery 28.0000 
+2 Mountain Men 21.7500 
+3 Bees 20.0000 
+4 Second Spars 13.5000 
+4 Pompfen Pals 13.5000 
+4 Flaily Wailies 13.5000 
+5 Motley Crew 10.5000 
+6 Space Pirates 7.0000 
+7 Owls 6.0000 
+7 Newcastle Blitzkrieg 6.0000 
+8 Opposition 4.7500 
+9 Skullwailies 4.0000 
+10 MERCs 2.1667 
+11 QUT 1.0000 
+11 Highland Dragons 1.0000 
+
+ Details 
+{'Location': 'Toowoomba', 'Weighting': 1, 'Points': 4, 'Teams': {'Skullduggery': 1, 'Mountain Men': 2, 'Motley Crew': 3, 'Highland Dragons': 4}}
+{'Location': 'Canberra', 'Weighting': 1, 'Points': 16, 'Teams': {'Bees': 1, 'Second Spars': 2, 'Pompfen Pals': 2, 'Motley Crew': 4, 'Owls': 5, 'Newcastle Blitzkrieg': 6, 'Space Pirates': 6}}
+{'Location': 'Brisbane', 'Weighting': 1, 'Points': 16, 'Teams': {'Skullduggery': 1, 'Mountain Men': 2, 'Flaily Wailies': 3, 'Opposition': 4, 'QUT': 5}}
+{'Location': 'Newcastle', 'Weighting': 0.5, 'Points': 8, 'Teams': {'Bees': 1, 'Skullwailies': 1, 'MERCs': 3, 'Newcastle Blitzkrieg': 4}}
+{'Location': 'Brisbane', 'Weighting': 0.5, 'Points': 16, 'Teams': {'Skullduggery': 1, 'Mountain Men': 2, 'Flaily Wailies': 3, 'Space Pirates': 4, 'Newcastle Blitzkrieg': 5, 'MERCs': 6}}
+
+Opposition [4.75]
+QUT [1.0]
+Second Spars [13.5]
+Skullwailies [4.0]
+Motley Crew [2.0, 8.5]
+Owls [6.0]
+Space Pirates [3.5, 3.5]
+Bees [16.0, 4.0]
+MERCs [1.666666666666667, 0.5]
+Skullduggery [4.0, 16.0, 8.0]
+Newcastle Blitzkrieg [3.5, 0.5, 2.0]
+Highland Dragons [1.0]
+Flaily Wailies [8.5, 5.0]
+Mountain Men [3.0, 12.25, 6.5]
+Pompfen Pals [13.5]

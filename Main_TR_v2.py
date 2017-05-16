@@ -136,18 +136,22 @@ RankingList = [x for (y,x) in sorted(zip(rankvals,Teams),reverse=True)]
 rankvals = sorted(rankvals,reverse=True)
 rankid = []
 SingleRankingLadder = dict()
-r = 1
+r1 = 1
+r2 = 1
 for t in range(0,len(Teams)):
-    SingleRankingLadder[RankingList[t]] = [r,rankvals[t]]
-    rankid=rankid+[r]
+    SingleRankingLadder[RankingList[t]] = [r1,rankvals[t]]
+    rankid=rankid+[r1]
+    r2 = r2+1
     try:
         if rankvals[t+1] < rankvals[t]:
-            r=r+1
+            r1=r2
     except:
+        # we have reached the final entry
         print('')
 
 print(SingleRankingLadder)
-print(RankingLadder)
+#print(RankingLadder)
+
 # export to a txt file
 text_file = open('Ranking_Ladder.txt','w')
 for t in range(0,len(rankid)):

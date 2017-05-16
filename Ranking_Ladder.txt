@@ -4,15 +4,15 @@
 4 Second Spars 13.5000 
 4 Pompfen Pals 13.5000 
 4 Flaily Wailies 13.5000 
-5 Motley Crew 10.5000 
-6 Space Pirates 7.0000 
-7 Owls 6.0000 
-7 Newcastle Blitzkrieg 6.0000 
-8 Opposition 4.7500 
-9 Skullwailies 4.0000 
-10 MERCs 2.1667 
-11 QUT 1.0000 
-11 Highland Dragons 1.0000 
+7 Motley Crew 10.5000 
+8 Space Pirates 7.0000 
+9 Owls 6.0000 
+9 Newcastle Blitzkrieg 6.0000 
+11 Opposition 4.7500 
+12 Skullwailies 4.0000 
+13 MERCs 2.1667 
+14 QUT 1.0000 
+14 Highland Dragons 1.0000 
 
  Details 
 Reference Date (month/year) 5/2017 
@@ -22,18 +22,18 @@ Reference Date (month/year) 5/2017
 {'Location': 'Newcastle', 'Date': '03/2016', 'Weighting': 0.5, 'Points': 8, 'Teams': {'Bees': 1, 'Skullwailies': 1, 'MERCs': 3, 'Newcastle Blitzkrieg': 4}}
 {'Location': 'Brisbane', 'Date': '09/2015', 'Weighting': 0.5, 'Points': 16, 'Teams': {'Skullduggery': 1, 'Mountain Men': 2, 'Flaily Wailies': 3, 'Space Pirates': 4, 'Newcastle Blitzkrieg': 5, 'MERCs': 6}}
 
-Skullduggery [4.0, 16.0, 8.0]
-MERCs [1.666666666666667, 0.5]
-QUT [1.0]
-Newcastle Blitzkrieg [3.5, 0.5, 2.0]
-Second Spars [13.5]
-Space Pirates [3.5, 3.5]
 Pompfen Pals [13.5]
-Mountain Men [3.0, 12.25, 6.5]
-Flaily Wailies [8.5, 5.0]
-Owls [6.0]
+QUT [1.0]
+MERCs [1.666666666666667, 0.5]
+Newcastle Blitzkrieg [3.5, 0.5, 2.0]
+Skullduggery [4.0, 16.0, 8.0]
 Skullwailies [4.0]
-Highland Dragons [1.0]
-Motley Crew [2.0, 8.5]
-Bees [16.0, 4.0]
+Flaily Wailies [8.5, 5.0]
+Mountain Men [3.0, 12.25, 6.5]
+Owls [6.0]
+Second Spars [13.5]
 Opposition [4.75]
+Highland Dragons [1.0]
+Space Pirates [3.5, 3.5]
+Bees [16.0, 4.0]
+Motley Crew [2.0, 8.5]

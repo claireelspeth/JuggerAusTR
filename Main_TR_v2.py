@@ -45,8 +45,8 @@ checkyear = today.year
 checkmonth = today.month
 # if you want to explore the team ladder at a past or future date you can
 # by uncommenting the code here
-#checkyear = 2016
-#checkmonth = 12
+#checkyear = 2017
+#checkmonth = 9
 
 
 # number of games that count towards aggregate rankings scores
@@ -91,9 +91,11 @@ for l in open('Tournaments.txt').readlines():
                 Participants = {}
             else:               
                 Tournament[numgames]={}
-                Tournament[numgames].update({'Location': l[0]}) 
+                Tournament[numgames].update({'Location': l[0]})
+                l[1] = l[1].strip().strip('\n')
+                Tournament[numgames].update({'Date': l[1]})
                 try:
-                    d=datetime.strptime(l[1].strip(), '%m/%Y')
+                    d=datetime.strptime(l[1], '%m/%Y')
                     w = check_date(checkyear, checkmonth, d.year, d.month)
                     Tournament[numgames].update({'Weighting': w})
                 except:
@@ -152,6 +154,7 @@ for t in range(0,len(rankid)):
     text_file.write('%i %s %.4f \n' % (rankid[t], RankingList[t], rankvals[t]))
                
 text_file.write('\n Details \n')
+text_file.write('Reference Date (month/year) %i/%i \n' %(checkmonth,checkyear))
 for g in range(0,numgames):
     text_file.write(str(Tournament[g]))
     text_file.write('\n')

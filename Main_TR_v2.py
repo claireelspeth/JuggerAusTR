@@ -64,6 +64,7 @@ Scores = dict()
 Weights = dict()
 Tournament = dict()
 RankingLadder = dict()
+SingleRankingLadder = dict()
 
 # Read in tournament details
 numgames= 0
@@ -126,21 +127,36 @@ for t in Teams:
         RankingLadder[str(t)].extend([weightedscore])
     aggscore = sorted(RankingLadder[str(t)],reverse=True)
     aggscore= sum(aggscore[0:NumCounted])
-    RankingLadder[str(t)]=aggscore
+    SingleRankingLadder[str(t)]=aggscore
 
-rankvals = list(RankingLadder.values())
+rankvals = list(SingleRankingLadder.values())
 RankingList = [x for (y,x) in sorted(zip(rankvals,Teams),reverse=True)]
 rankvals = sorted(rankvals,reverse=True)
-# desired output RankingLadder = {rank: {Team, Score}}
-# rank can't be a key when we can have multiple teams at the same rank
-RankingLadder = dict()
+rankid = []
+SingleRankingLadder = dict()
 r = 1
 for t in range(0,len(Teams)):
-    RankingLadder[RankingList[t]] = [r,rankvals[t]]
+    SingleRankingLadder[RankingList[t]] = [r,rankvals[t]]
+    rankid=rankid+[r]
     try:
         if rankvals[t+1] < rankvals[t]:
             r=r+1
     except:
         print('')
 
+print(SingleRankingLadder)
 print(RankingLadder)
+# export to a txt file
+text_file = open('Ranking_Ladder.txt','w')
+for t in range(0,len(rankid)):
+    text_file.write('%i %s %.4f \n' % (rankid[t], RankingList[t], rankvals[t]))
+               
+text_file.write('\n Details \n')
+for g in range(0,numgames):
+    text_file.write(str(Tournament[g]))
+    text_file.write('\n')
+for t in Teams:
+    text_file.write('\n')
+    text_file.write('%s %s'% (t,str(RankingLadder[t])))
+   
+text_file.close()

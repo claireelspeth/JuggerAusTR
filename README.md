@@ -1,8 +1,8 @@
 # JuggerAusTR
 Contents:
-* Code for a team ranking system
-* Test data
-* Example output
+* Code for a team ranking system (Main_TR_v2.py is the current version)
+* Test data (Tournaments.txt)
+* Example output (RankingLadder.txt)
 
 I have had time to work on this again recently! I want to propose something and I need people to help me test the proposed system by trying to break, game it or point out flaws I have missed.
 
